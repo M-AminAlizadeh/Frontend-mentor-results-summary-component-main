@@ -1,0 +1,10 @@
+[
+  {
+    "id": "1",
+    "name": "John",
+    "description": "Full-stack developer with experience in React and Node.js.",
+    "githubLink": "https://github.com/john",
+    "demoLink": "https://example.com/john-demo"
+  }
+]
+
