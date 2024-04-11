@@ -2,10 +2,10 @@ import Navbar from './Navbar'
 
 function Header() {
   return(
-    <>
-      Header
+    <header className="border border-black flex justify-between p-3">
+      <h1>My logo</h1>
       <Navbar />
-    </>
+    </header>
   )
 }
 
