@@ -8,6 +8,9 @@
       "jsx": true
     }
   },
+  "env": {
+    "browser": true
+  },
   "ignorePatterns": [
     "tailwind.config.js",
     "postcss.config.js",
