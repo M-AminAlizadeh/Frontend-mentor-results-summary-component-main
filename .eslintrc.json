@@ -1,0 +1,19 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "ignorePatterns": [
+    "tailwind.config.js",
+    "postcss.config.js",
+    "vite.config.js"
+  ],
+  "rules": {
+    // Add any additional rules here if needed
+  }
+}
