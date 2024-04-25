@@ -1,12 +1,13 @@
-import Header from '../components/Header'
+import React from 'react';
+import Header from '../components/Header';
 
 function AboutProjectPage() {
-  return(
+  return (
     <>
       <Header />
       About project page
     </>
-  )
+  );
 }
 
 export default AboutProjectPage;

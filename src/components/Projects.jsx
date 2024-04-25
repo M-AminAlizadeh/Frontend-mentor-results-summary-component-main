@@ -1,14 +1,13 @@
-import projectsData from '../assets/projectsData'
+import React from 'react';
+import projectsData from '../assets/projectsData.json';
 
 function Projects() {
-  return(
+  return (
     <section>
       <h2 id="projects">Projects</h2>
-      {projectsData.map((p)=>{
-        return <p key={p.id}>{p.name}</p>
-      })}
+      {projectsData.map((p) => <p key={p.id}>{p.name}</p>)}
     </section>
-  )
+  );
 }
 
 export default Projects;
