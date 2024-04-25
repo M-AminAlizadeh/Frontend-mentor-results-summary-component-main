@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 
 function Header() {
   return (
-    <header className="border border-black flex justify-between p-3">
+    <header className="border flex justify-between items-center px-5 py-4">
       <Link to="/">
         <img src="https://img.icons8.com/color/55/google-code.png" alt="google-code" />
       </Link>
