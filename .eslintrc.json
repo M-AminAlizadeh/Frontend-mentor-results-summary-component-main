@@ -1,25 +1,22 @@
 {
-  "env": {
-    "browser": true,
-    "es6": true,
-    "jest": true
-  },
-  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": [
+    "react"
+  ],
   "parserOptions": {
-    "ecmaVersion": 2018,
-    "sourceType": "module"
+    "ecmaFeatures": {
+      "jsx": true
+    }
   },
-  "extends": ["airbnb-base"],
-  "rules": {
-    "no-shadow": "off",
-    "no-param-reassign": "off",
-    "eol-last": "error",
-    "import/extensions": [ 1, {
-      "js": "always", "json": "always"
-    }]
+  "env": {
+    "browser": true
   },
   "ignorePatterns": [
-    "dist/",
-    "build/"
-  ]
+    "tailwind.config.js",
+    "postcss.config.js",
+    "vite.config.js"
+  ],
+  "rules": {
+    // Add any additional rules here if needed
+  }
 }
